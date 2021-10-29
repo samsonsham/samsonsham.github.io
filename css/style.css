@@ -1,3 +1,60 @@
+/*
+COLOUR PALLATTE
+https://coolors.co/f8ffe5-06d6a0-1b9aaa-ff8552-2d3142
+#F8FFE5 - Light Yellow - Almost White
+#06D6A0 - Caribbean Green
+#1B9AAA - Blue Munsell
+#FF8552 - Coral
+#2D3142 - Space Cadet - Almost black
+*/
+
+/* Global style
+--------------------------------------*/
+body {
+  color: #2D3142;
+}
 img {
   width: 30px;
+}
+a {
+  color: #06D6A0;
+}
+a:link {
+  background: #0000ff;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* Profile
+--------------------------------------*/
+header {
+  background: #1B9AAA;
+  color: #F8FFE5;
+}
+
+
+/* Skills
+--------------------------------------*/
+.skills {
+  background: #F8FFE5;
+}
+
+/* Work Experience
+--------------------------------------*/
+.work-experience {
+  background: #FF8552;
+}
+
+
+/* Education
+--------------------------------------*/
+
+
+
+/* Contact Info
+--------------------------------------*/
+footer {
+  background: #2D3142;
+  color: #F8FFE5;
 }
