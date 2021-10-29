@@ -19,9 +19,6 @@ img {
 a {
   color: #06D6A0;
 }
-a:link {
-  background: #0000ff;
-}
 a:hover {
   text-decoration: none;
 }
