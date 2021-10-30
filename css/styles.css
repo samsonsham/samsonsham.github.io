@@ -1,10 +1,10 @@
 /*
 COLOUR PALLATTE
-https://coolors.co/f8ffe5-06d6a0-1b9aaa-ff8552-2d3142
+https://coolors.co/f8ffe5-06d6a0-1b9aaa-FFA07A-2d3142
 #F8FFE5 - Light Yellow - Almost White
 #06D6A0 - Caribbean Green
 #1B9AAA - Blue Munsell
-#FF8552 - Coral
+#FFA07A - Lightsalmon
 #2D3142 - Space Cadet - Almost black
 */
 
@@ -86,7 +86,7 @@ header {
   padding: 0;
 }
 .skill-list li {
-  color: #FF8552;
+  color: #FFA07A;
   background: #2D3142;
   display: inline-block;
   padding: 8px 16px;
