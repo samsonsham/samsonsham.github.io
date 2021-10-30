@@ -12,6 +12,8 @@ https://coolors.co/f8ffe5-06d6a0-1b9aaa-ff8552-2d3142
 --------------------------------------*/
 body {
   color: #2D3142;
+  margin: 0;
+  padding: 0;
 }
 img {
   width: 30px;
@@ -21,6 +23,11 @@ a {
 }
 a:hover {
   text-decoration: none;
+}
+.content-wrap {
+  width: 900px;
+  margin: 0 auto;
+  padding: 60px 0;
 }
 
 /* Profile
@@ -34,13 +41,22 @@ header {
 /* Skills
 --------------------------------------*/
 .skills {
-  background: #F8FFE5;
+  background: #06D6A0;
+}
+.skills li {
+  color: #FF8552;
+  background: #2D3142;
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 10px 0;
+  border-radius: 4px;
 }
 
 /* Work Experience
 --------------------------------------*/
 .work-experience {
-  background: #FF8552;
+  background: #F8FFE5;
 }
 
 
