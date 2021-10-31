@@ -90,9 +90,10 @@ header {
   background: #2D3142;
   display: inline-block;
   padding: 8px 16px;
-  margin: 10px 0;
+  margin: 10px 5px;
   border-radius: 4px;
 }
+
 
 /* Work Experience
 --------------------------------------*/
@@ -101,6 +102,30 @@ header {
 }
 .work-experience a{
   color: #1B9AAA;
+}
+
+/* Volunteer Experience
+--------------------------------------*/
+.volunteer-experience {
+  position: relative;
+}
+.volunteer-experience::after {
+  content: "";
+  background-image: url(../images/lukas-blazek-EWDvHNNfUmQ-unsplash.jpg);
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.volunteer-experience p {
+  width: 80%;
 }
 
 /* Education
