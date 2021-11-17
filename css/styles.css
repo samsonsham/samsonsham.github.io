@@ -175,6 +175,10 @@ footer {
   h1,h2 {
     line-height: 1;
   }
+  header h2 {
+    font-size: 25px;
+    padding: 15px 0;
+  }
   .contact-list a {
     padding: 5px;
   }
