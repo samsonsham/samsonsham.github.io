@@ -15,9 +15,9 @@ It consists of 5 parts:
 Credit: Christina Truong
 
 
-=====================================================
-Git Command:
-
-git add .
-git commit -m "My commit Message"
-git push origin HEAD:main
+=====================================================  
+Git Command:  
+  
+git add .  
+git commit -m "My commit Message"  
+git push origin HEAD:main  
