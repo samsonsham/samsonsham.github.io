@@ -12,33 +12,36 @@ https://coolors.co/f8ffe5-06d6a0-1b9aaa-FFA07A-2d3142
 --------------------------------------*/
 html {
   box-sizing: border-box;
+  font-size: 100%;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 body {
-  color: #2D3142;
+  color: #2d3142;
   margin: 0;
   padding: 0;
-  font-family: 'Quattrocento', serif;
-  font-size: 15px;
+  font-family: "Quattrocento", serif;
+  font-size: 1rem;
   line-height: 1.5;
 }
 img {
-  width: 30px;
+  width: 300px;
 }
 a {
-  color: #06D6A0;
+  color: #06d6a0;
 }
 a:hover {
   text-decoration: none;
 }
 h1 {
-  font-size: 100px;
+  font-size: 6rem;
   line-height: 1;
 }
 h2 {
-  font-size: 45px;
+  font-size: 3rem;
 }
 .content-wrap {
   max-width: 800px;
@@ -46,8 +49,9 @@ h2 {
   margin: 0 auto;
   padding: 60px 0;
 }
-h1, h2 {
-  font-family: 'Kaushan Script', cursive;
+h1,
+h2 {
+  font-family: "Kaushan Script", cursive;
   font-weight: 400;
   margin: 0;
 }
@@ -71,37 +75,61 @@ h3 {
 /* Profile
 --------------------------------------*/
 header {
-  background: #1B9AAA;
-  color: #F8FFE5;
+  background: #1b9aaa;
+  color: #f8ffe5;
 }
-
 
 /* Skills
 --------------------------------------*/
 .skills {
-  background: #06D6A0;
+  background: #06d6a0;
 }
 .skill-list {
   list-style-type: none;
   padding: 0;
 }
 .skill-list li {
-  color: #FFA07A;
-  background: #2D3142;
+  color: #ffa07a;
+  background: #2d3142;
   display: inline-block;
   padding: 8px 16px;
   margin: 10px 5px;
   border-radius: 4px;
 }
 
+/* Projects
+------------------------------------*/
+.projects {
+  background: #faf6d4;
+}
+.projects a {
+  color: #2f3061;
+}
+.projects .btn {
+  color: #f5fbe5;
+  background: #2f3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.project-item {
+  overflow: hidden;
+}
+.project-item h3 {
+  margin-top: 0;
+}
 
 /* Work Experience
 --------------------------------------*/
 .work-experience {
-  background: #F8FFE5;
+  background: #f8ffe5;
 }
-.work-experience a{
-  color: #1B9AAA;
+.work-experience a {
+  color: #1b9aaa;
 }
 
 /* Volunteer Experience
@@ -139,8 +167,8 @@ header {
 /* Contact Info
 --------------------------------------*/
 footer {
-  background: #2D3142;
-  color: #F8FFE5;
+  background: #2d3142;
+  color: #f8ffe5;
 }
 .contact-list {
   list-style-type: none;
@@ -149,13 +177,23 @@ footer {
 .contact-list a {
   padding: 15px;
   display: inline-block;
+  font-size: 3rem;
+  transition: all 0.2s ease-in-out;
+}
+.contact-list a:hover {
+  transform: scale(1.2);
 }
 
 /* Responsive
 --------------------------------------*/
-@media screen and (min-width:750px) {
-  header, footer {
+@media screen and (min-width: 750px) {
+  header,
+  footer {
     text-align: center;
+  }
+  .project-item img {
+    float: left;
+    margin-right: 20px;
   }
   .job-item {
     display: grid;
@@ -167,19 +205,31 @@ footer {
     justify-content: center;
   }
 }
-@media screen and (max-width:749px) {
+@media screen and (max-width: 749px) {
   h1 {
-    font-size: 75px;
-    margin-bottom: 20px;
+    font-size: 3rem;
+    margin-bottom: 10px;
   }
-  h1,h2 {
+  h1,
+  h2 {
     line-height: 1;
   }
   header h2 {
-    font-size: 25px;
+    font-size: 1.5rem;
     padding: 15px 0;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h2 {
+    font-size: 2rem;
+  }
+  .contact-list {
+    display: flex;
+    justify-content: space-around;
   }
   .contact-list a {
     padding: 5px;
+    font-size: 2rem;
   }
 }
