@@ -100,21 +100,21 @@ header {
 /* Projects
 ------------------------------------*/
 .projects {
-  background: #faf6d4;
+  background: #dfe7eb;
 }
 .projects a {
-  color: #2f3061;
+  color: #224347;
 }
 .projects .btn {
   color: #f5fbe5;
-  background: #2f3061;
+  background: #2f4c61;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
 }
 .projects .btn:hover {
-  background: rgba(47, 48, 97, 80%);
+  background: rgba(61, 101, 114, 0.8);
 }
 .project-item {
   overflow: hidden;
